@@ -133,8 +133,9 @@ export default {
 }
 </script>
 
-<!--Template is the CSS portion -->
-<style>
+<!--Template is the CSS portion 
+Using scoped means that it only applies to this specific component-->
+<style scoped>
 
 .user-profile{
 display: grid;
